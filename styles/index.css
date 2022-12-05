@@ -1,0 +1,30 @@
+#toTop {
+    position: fixed;
+    right: 2em;
+    bottom: 2em;
+    background-color: rgba(70, 80, 78, 0.9);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;  
+    border: none;
+    border-radius: 5px;
+    padding: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 .2em 2em 0 rgba(228, 228, 230, 0.9);
+    transition: all .5s ease-in-out;
+    display: none;
+    font-size: .75em;
+  }
+  
+  #toTop:hover {
+    background-color: rgb(70, 118, 107);
+    color: rgba(255, 255, 255, 0.9);
+    padding: .85em 1.75em;
+  }
+  
+  #toTop.visible {
+    display: block;
+    margin-left: 30px;
+  }
+
